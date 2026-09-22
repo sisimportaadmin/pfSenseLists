@@ -1,0 +1,34 @@
+# Lista de dominios no permitidos
+# El formato es igual que un archivo host
+# 0.0.0.0 dominio.com
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+#Paginas pornograficas
+0.0.0.0 javtb.se
+0.0.0.0 www.javtb.se
+0.0.0.0 shetivadi.com #Pagina posiblemente hackeada, aunque parece normal
+0.0.0.0 gaymas.com
+0.0.0.0 www.gaymas.com
+0.0.0.0 universoyuri.com
+0.0.0.0 www.universoyuri.com
+0.0.0.0 lpsg.com
+0.0.0.0 www.lpsg.com
+#Paginas posiblemente Hackeadas
+0.0.0.0 comfortpower.net
+#Virus
+0.0.0.0 bbsbys.com
+#Fishing
+0.0.0.0 premals.shop
